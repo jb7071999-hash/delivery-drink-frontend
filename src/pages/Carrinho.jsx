@@ -23,7 +23,7 @@ export default function Carrinho() {
 
       {items.length === 0 ? (
         <p className="empty-state">
-          Seu carrinho está vazio. Volte ao catálogo para adicionar bebidas.
+          Seu carrinho está vazio. Volte ao catálogo para adicionar algumas de nossas bebidas.
         </p>
       ) : (
         <>
@@ -52,7 +52,7 @@ export default function Carrinho() {
               <span>{formatBRL(subtotal)}</span>
             </div>
             <div className="summary-row">
-              <span>Taxa de entrega</span>
+              <span>Taxa de entrega:</span>
               <span>{formatBRL(deliveryFee)}</span>
             </div>
             <div className="summary-row total">
@@ -73,7 +73,7 @@ export default function Carrinho() {
         </button>
         <div style={{ height: 10 }} />
         <button className="btn-secondary" onClick={() => navigate('/catalogo')}>
-          Continuar comprando
+          Continuar Comprando
         </button>
         <DemoNav />
       </div>
