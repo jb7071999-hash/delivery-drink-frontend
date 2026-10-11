@@ -63,6 +63,8 @@ Na tela de login, escolha o perfil em **"Entrar como"** e clique em Entrar (aind
 | `/loja` | Painel de pedidos recebidos | Loja | E5 |
 | `/entregador` | Painel de corridas disponíveis | Entregador | E6 |
 
+Cada tela corresponde a uma rota especifica já definida na API
+
 ## 📁 Estrutura
 
 ```
